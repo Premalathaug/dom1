@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation</title>
+    
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+
+    
+</head>
+<body>
+
+
+    <div class="container">
+         
+
+                <h1 id="title">HTML FORM</h1>
+                <p id="description">Kindly fill the form!</p>
+
+                <form class="form"id= "form">
+                     <div class="form-group">
+                <div class="fname">
+                       <label type="text" id="firstname">FirstName</label><br>
+                       <input type="text" id="first-name" class="ip" placeholder="Firstname" required>
+                    </div>
+                
+                <div class="lname">
+                        <label type="text" id="lname">Lastname</label><br>
+                        <input type="text" id="last-name" class="ip" placeholder="lastname" required>
+                </div>
+                <div class ="Email" > 
+                    <label type="text" id="Email-id">Email</label><br>
+                    <input type="text" id="Email"  class="ip" placeholder="abc@gmail.com" required>
+                </div>
+                <div class=" address" > 
+                    <label type="text" id="add">Address</label><br>
+                    <textarea type="address"id="address"  class="ip" placeholder="address" required></textarea>
+                    
+                </div>
+                <div class="pin" >
+                    <label type="text" id="pin">Pincode</label><br>
+                    <input type="text" id="pincode"  class="ip" placeholder="pincode" required>
+                </div>
+                    <label type="text" id="gender">Gender</label><br>
+                <div class="gender">
+                
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label type="text">Male </label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label type="text">Female</label>
+                    <input type="radio" name="gender" id="others" value="others">
+                    <label type="text">Others </label>
+                        
+                </div>
+                
+
+                   <label type="text" id="food">choice of food(must choose at least 2 out of 5 options)</label>
+
+                        <div class="food select">
+                            
+                                <input type="checkbox" id="indian" value="Indian">
+                                <label type="text">Indian</label>
+                                <input type="checkbox" id="italian"value="Italian">
+                                <label type="text">Italian</label>
+                                <input type="checkbox" id="chinese" value="Chinese">
+                                <label type="text">Chinese</label>
+                                <input type="checkbox" id="thai"  value="Thai">
+                                <label type="text">Thai</label>
+                                <input type="checkbox"  id="mexican" value="Mexican">
+                                <label type="text">Mexican</label>
+                        </div>
+                         <div class="state">
+                                <label type="text" id="sta">State</label><br>
+                                <input type="text" id="state" class="ip" placeholder="state"required><br>
+                         </div>
+                         <div class="country"> 
+                            <label type="text" id="con">Country</label><br>
+                            <input type="text" id="country"  class="ip" placeholder="country" required><br>
+                         </div>
+                         <div class="submit"><br>
+                              <button type="submit" class="btn btn-primary"id="submit" name="submit">Submit</button>
+                    
+                        </div>
+                    
+                
+
+                             </div>
+            
+
+                </form>
+
+            
+            
+
+            
+    
+            
+            <div class=table-view>
+                
+                <table class="table">
+
+                    <thead>
+
+                      <tr >
+                        <th>Firstname</th>
+                        <th>lastname</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Pincode</th>
+                        <th>Gender</th>
+                        <th>Food</th>
+                        <th>State</th>
+                        <th>Country</th>
+                        
+                      </tr>
+                      
+                    </thead>
+
+                    <tbody>
+                    </tbody>
+
+                  </table>
+
+            </div>
+
+            
+            
+        
+
+    </div>
+    
+
+    
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    
+    
+</body>
+</html>
